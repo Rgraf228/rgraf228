@@ -93,5 +93,12 @@ Each one includes detection, research, investigation steps, remediation, and les
 **Tools:** Windows 11, Wazuh, MITRE ATT&CK  
 **Summary:** Explored how weak registry permissions could allow unauthorized modification of Steam client settings.
 
+📁 Full repository: [Security Writeups](https://github.com/Rgraf228/Security-writeups)
+
+## 📫 Contact
+- Email: russell.graf228@gmail.com  
+- LinkedIn: https://www.linkedin.com/in/russell-graf/  
+- GitHub: https://github.com/Rgraf228
+
 
 
