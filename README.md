@@ -63,7 +63,35 @@ It allows me to practice threat detection, log analysis, network segmentation, a
 - Expand automation using Python  
 
 
-## My Projects
-- [Security Writeups](https://github.com/Rgraf228/Security-writeups)
+## 🔍 Featured Security Investigations
+
+These are some of my most detailed and representative SOC-style investigations.  
+Each one includes detection, research, investigation steps, remediation, and lessons learned.
+
+### **[Windows Logon Success Alert Triage](ca://s?q=Tell_me_more_about_Windows_Logon_Success_Triage)**
+**Skills:** Log analysis, authentication event triage, MITRE ATT&CK mapping  
+**Tools:** Wazuh SIEM, Windows Event Logs  
+**Summary:** Investigated repeated successful logon events to determine whether they indicated normal user behavior, credential misuse, or lateral movement.
+
+### **[Git Credential Helper Carriage Return Confusion (CVE-2024-52006)](ca://s?q=Tell_me_more_about_CVE_2024_52006)**
+**Skills:** Vulnerability analysis, exploit reproduction, secure configuration  
+**Tools:** Wazuh, Git, Linux  
+**Summary:** Analyzed a Git credential parsing flaw that could lead to misinterpreted authentication data and insecure credential handling.
+
+### **[Vite Arbitrary File Read via WebSocket fetchModule Bypass (CVE-2026-39368)](ca://s?q=Tell_me_more_about_CVE_2026_39368)**
+**Skills:** Web security, file read exploitation, threat modeling  
+**Tools:** Linux, Vite dev server, Wazuh log monitoring  
+**Summary:** Demonstrated how malformed WebSocket requests could bypass file access restrictions and expose sensitive files.
+
+### **[node-tar Path Traversal Cluster](ca://s?q=Tell_me_more_about_node_tar_CVE_cluster)**
+**Skills:** Path traversal exploitation, filesystem security, remediation planning  
+**Tools:** Linux, node-tar, Wazuh  
+**Summary:** Investigated multiple related CVEs involving symlink/hardlink traversal that could lead to arbitrary file write or overwrite.
+
+### **[Steam Client Registry Permission Weakness (CVE-2019-14743)](ca://s?q=Tell_me_more_about_CVE_2019_14743)**
+**Skills:** Windows registry analysis, privilege escalation research  
+**Tools:** Windows 11, Wazuh, MITRE ATT&CK  
+**Summary:** Explored how weak registry permissions could allow unauthorized modification of Steam client settings.
+
 
 
