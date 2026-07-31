@@ -38,13 +38,30 @@ I’m currently preparing for CompTIA Network+ and planning Security+ next, with
 - Ubuntu Server
 
 ## 🧪 Home Lab Environment
-I maintain a full cybersecurity home lab to practice SOC workflows, threat detection, and incident response.
+I operate a full security-focused home lab designed to simulate SOC, NOC, and IT operations workflows.  
+It allows me to practice threat detection, log analysis, network segmentation, and incident investigation in a realistic environment.
 
-- Proxmox virtualization server (multiple Linux & Windows VMs)
-- Wazuh SIEM stack (manager, indexer, dashboard)
-- pfSense firewall with VLAN segmentation
-- Ubuntu server for log forwarding and testing
-- SOC investigation projects and writeups
+### Core Components
+- **Proxmox Virtualization Server** — Hosts multiple Linux and Windows VMs for endpoint monitoring, testing, and analysis.
+- **pfSense Firewall** — Provides VLAN segmentation, routing, firewall rules, and network isolation for controlled security testing.
+- **Wazuh SIEM/XDR Stack** — Centralized log collection, file integrity monitoring, security configuration assessment, and alerting.
+- **Ubuntu Server** — Used for log forwarding, agent testing, and running lightweight services.
+- **Windows 11 Endpoint** — Enrolled into Wazuh for monitoring authentication events, PowerShell activity, and system changes.
+
+### What I Practice in This Lab
+- **Log analysis & alert triage** using Wazuh dashboards and rule-based detections  
+- **Threat detection** across Windows and Linux endpoints  
+- **Network segmentation** with pfSense VLANs and firewall policies  
+- **Endpoint hardening** using CIS Benchmarks and SCA results  
+- **Investigation workflows** modeled after SOC analyst practices  
+- **Documentation & writeups** for CVEs, suspicious activity, and MITRE ATT&CK techniques  
+
+### Lab Goals
+- Build realistic SOC-style investigations  
+- Strengthen networking fundamentals  
+- Improve detection engineering skills  
+- Expand automation using Python  
+
 
 ## My Projects
 - [Security Writeups](https://github.com/Rgraf228/Security-writeups)
