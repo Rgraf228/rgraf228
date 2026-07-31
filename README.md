@@ -1,21 +1,41 @@
-# Hi, I'm Russell 👋
+## Hi, I’m Russell 👋
 
-## About Me
-I'm a cybersecurity learner building hands-on SOC projects, home labs, and writeups.  
-I focus on threat detection, incident response, and security operations.
+I’m a security-focused IT professional building hands-on SOC projects, home labs, and investigation writeups.  
+I work with Wazuh SIEM, pfSense, and Proxmox to practice threat detection, incident response, and security operations in a realistic lab environment.  
 
-## What I'm Working On
-- SOC investigation writeups  
-- Wazuh SIEM lab  
-- Linux + networking fundamentals  
-- Threat hunting practice  
+I’m currently preparing for CompTIA Network+ and planning Security+ next, with the goal of moving into NOC, SOC, or IT operations roles.
+
+## What I’m Working On
+- Expanding my Wazuh SIEM lab with additional Windows & Linux endpoints  
+- Building structured SOC investigation writeups based on real alerts  
+- Strengthening networking fundamentals (VLANs, routing, firewall rules)  
+- Practicing threat hunting and log analysis across multiple data sources  
+- Preparing for CompTIA Network+ (exam scheduled Aug 2026)
+
+## Certifications & Learning
+- CompTIA Network+ — Exam Scheduled Aug 2026  
+- CompTIA Security+ — Planned  
+- Continuous learning in SOC workflows, networking, and Linux
 
 ## Skills
-- Linux  
-- Networking  
-- SIEM (Wazuh)  
-- Incident writeups  
-- Virtualization (Proxmox)  
+**Security & SOC**
+- SIEM (Wazuh)
+- Log analysis & alert triage
+- Threat detection & investigation
+- MITRE ATT&CK mapping
+- Endpoint hardening (CIS Benchmarks)
+
+**Networking & Systems**
+- TCP/IP, VLANs, firewall rules (pfSense)
+- Virtualization (Proxmox)
+- Windows & Linux administration
+- Basic scripting (Python)
+
+**Tools & Platforms**
+- Wazuh SIEM stack
+- pfSense firewall
+- Proxmox virtualization
+- Ubuntu Server
 
 ## 🧪 Home Lab Environment
 I maintain a full cybersecurity home lab to practice SOC workflows, threat detection, and incident response.
