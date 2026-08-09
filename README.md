@@ -13,8 +13,7 @@ I’m currently preparing for CompTIA Network+ and planning Security+ next, with
 - Preparing for CompTIA Network+ (exam scheduled Aug 2026)
 
 ## Certifications & Learning
-- CompTIA Network+ — Exam Scheduled Aug 2026  
-- CompTIA Security+ — Planned  
+- CompTIA Network+ — Aug 2026   
 - Continuous learning in SOC workflows, networking, and Linux
 
 ## Skills
