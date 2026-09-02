@@ -14,7 +14,7 @@ I’m currently preparing for CompTIA Network+ and planning Security+ next, with
 
 ## Certifications & Learning
 - CompTIA Network+ — Aug 2026   
-- Continuous learning in SOC workflows, networking, and Linux
+- CompTIA Security+ - Aug 2026
 
 ## Skills
 **Security & SOC**
