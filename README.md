@@ -3,7 +3,7 @@
 I’m a security-focused IT professional building hands-on SOC projects, home labs, and investigation writeups.  
 I work with Wazuh SIEM, pfSense, and Proxmox to practice threat detection, incident response, and security operations in a realistic lab environment.  
 
-I’m currently preparing for CompTIA Network+ and planning Security+ next, with the goal of moving into NOC, SOC, or IT operations roles.
+
 
 ## What I’m Working On
 - Expanding my Wazuh SIEM lab with additional Windows & Linux endpoints  
