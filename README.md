@@ -1,6 +1,6 @@
 ## Hi, I'm Russell 👋
 
-**Networking & Security | CompTIA Network+ and Security+ | Home lab builder | Python automation**
+**Networking & Security | CompTIA Network+ and Security+ | Home lab builder |**
 
 I'm an IT professional with a software development background, moving into network engineering. I build segmented lab networks, monitor them, break them, and document what I learn.
 
