@@ -1,103 +1,59 @@
-## Hi, I’m Russell 👋
+## Hi, I'm Russell 👋
 
-I’m a security-focused IT professional building hands-on SOC projects, home labs, and investigation writeups.  
-I work with Wazuh SIEM, pfSense, and Proxmox to practice threat detection, incident response, and security operations in a realistic lab environment.  
+**Networking & Security | CompTIA Network+ and Security+ | Home lab builder | Python automation**
 
+I'm an IT professional with a software development background, moving into network engineering. I build segmented lab networks, monitor them, break them, and document what I learn.
 
+## 🎯 What I'm Working On
+- Studying for the **Cisco CCNA**
+- Building out VLAN segmentation, inter-VLAN routing, and firewall policy in my home lab
+- Integrating pfSense logging into my Wazuh SIEM for network visibility
+- Writing up troubleshooting sessions and investigations in a structured format
 
-## What I’m Working On
-- Expanding my Wazuh SIEM lab with additional Windows & Linux endpoints  
-- Building structured SOC investigation writeups based on real alerts  
-- Strengthening networking fundamentals (VLANs, routing, firewall rules)  
-- Practicing threat hunting and log analysis across multiple data sources  
-- Preparing for CompTIA Network+ (exam scheduled Aug 2026)
+## 📜 Certifications
+- CompTIA Network+ (Aug 2026)
+- CompTIA Security+ (Aug 2026)
 
-## Certifications & Learning
-- CompTIA Network+ — Aug 2026   
-- CompTIA Security+ — Aug 2026
+## 🧪 Home Lab
+A segmented lab for practicing networking, monitoring, and security operations.
 
-## Skills
-**Security & SOC**
-- SIEM (Wazuh)
-- Log analysis & alert triage
-- Threat detection & investigation
-- MITRE ATT&CK mapping
-- Endpoint hardening (CIS Benchmarks)
+- **Proxmox** hosting Linux and Windows VMs
+- **pfSense** providing routing, VLAN segmentation, DHCP, and firewall rules between network zones
+- **Managed switch** with 802.1Q VLANs and STP tuning (Portfast/edge ports)
+- **Wazuh SIEM/XDR** collecting logs and alerts from Windows and Linux endpoints
+- **Ubuntu Server** and **Windows 11** endpoints for agent testing and monitoring
 
-**Networking & Systems**
-- TCP/IP, VLANs, firewall rules (pfSense)
-- Virtualization (Proxmox)
-- Windows & Linux administration
-- Basic scripting (Python)
+**What I practice here**
+- VLAN design and inter-VLAN firewall policy
+- Network troubleshooting (DHCP conflicts, STP port flapping, packet loss)
+- Log analysis and alert triage
+- Endpoint hardening with CIS Benchmarks
+- Python scripting for security and network tooling
 
-**Tools & Platforms**
-- Wazuh SIEM stack
-- pfSense firewall
+📁 *Lab documentation and topology diagrams: [link to homelab-network repo]*
+
+## 🛠️ Skills
+**Networking**
+- TCP/IP, DHCP, DNS
+- VLANs / 802.1Q, STP
+- Firewall rules and segmentation (pfSense)
+- Packet analysis (Wireshark)
+
+**Systems & Automation**
 - Proxmox virtualization
-- Ubuntu Server
+- Windows & Linux administration
+- Python, JavaScript
 
-## 🧪 Home Lab Environment
-I operate a full security-focused home lab designed to simulate SOC, NOC, and IT operations workflows.  
-It allows me to practice threat detection, log analysis, network segmentation, and incident investigation in a realistic environment.
+**Security**
+- SIEM (Wazuh), alert triage, log analysis
+- Vulnerability research and remediation
+- MITRE ATT&CK mapping, CIS Benchmarks
 
-### Core Components
-- **Proxmox Virtualization Server** — Hosts multiple Linux and Windows VMs for endpoint monitoring, testing, and analysis.
-- **pfSense Firewall** — Provides VLAN segmentation, routing, firewall rules, and network isolation for controlled security testing.
-- **Wazuh SIEM/XDR Stack** — Centralized log collection, file integrity monitoring, security configuration assessment, and alerting.
-- **Ubuntu Server** — Used for log forwarding, agent testing, and running lightweight services.
-- **Windows 11 Endpoint** — Enrolled into Wazuh for monitoring authentication events, PowerShell activity, and system changes.
+## 🔍 Featured Investigations
+Security write-ups following a Detection → Research → Investigation → Remediation → Lessons Learned format.
 
-### What I Practice in This Lab
-- **Log analysis & alert triage** using Wazuh dashboards and rule-based detections  
-- **Threat detection** across Windows and Linux endpoints  
-- **Network segmentation** with pfSense VLANs and firewall policies  
-- **Endpoint hardening** using CIS Benchmarks and SCA results  
-- **Investigation workflows** modeled after SOC analyst practices  
-- **Documentation & writeups** for CVEs, suspicious activity, and MITRE ATT&CK techniques  
-
-### Lab Goals
-- Build realistic SOC-style investigations  
-- Strengthen networking fundamentals  
-- Improve detection engineering skills  
-- Expand automation using Python  
-
-
-## 🔍 Featured Security Investigations
-
-These are some of my most detailed and representative SOC-style investigations.  
-Each one includes detection, research, investigation steps, remediation, and lessons learned.
-
-### **[Windows Logon Success Alert Triage](ca://s?q=Tell_me_more_about_Windows_Logon_Success_Triage)**
-**Skills:** Log analysis, authentication event triage, MITRE ATT&CK mapping  
-**Tools:** Wazuh SIEM, Windows Event Logs  
-**Summary:** Investigated repeated successful logon events to determine whether they indicated normal user behavior, credential misuse, or lateral movement.
-
-### **[Git Credential Helper Carriage Return Confusion (CVE-2024-52006)](ca://s?q=Tell_me_more_about_CVE_2024_52006)**
-**Skills:** Vulnerability analysis, exploit reproduction, secure configuration  
-**Tools:** Wazuh, Git, Linux  
-**Summary:** Analyzed a Git credential parsing flaw that could lead to misinterpreted authentication data and insecure credential handling.
-
-### **[Vite Arbitrary File Read via WebSocket fetchModule Bypass (CVE-2026-39368)](ca://s?q=Tell_me_more_about_CVE_2026_39368)**
-**Skills:** Web security, file read exploitation, threat modeling  
-**Tools:** Linux, Vite dev server, Wazuh log monitoring  
-**Summary:** Demonstrated how malformed WebSocket requests could bypass file access restrictions and expose sensitive files.
-
-### **[node-tar Path Traversal Cluster](ca://s?q=Tell_me_more_about_node_tar_CVE_cluster)**
-**Skills:** Path traversal exploitation, filesystem security, remediation planning  
-**Tools:** Linux, node-tar, Wazuh  
-**Summary:** Investigated multiple related CVEs involving symlink/hardlink traversal that could lead to arbitrary file write or overwrite.
-
-### **[Steam Client Registry Permission Weakness (CVE-2019-14743)](ca://s?q=Tell_me_more_about_CVE_2019_14743)**
-**Skills:** Windows registry analysis, privilege escalation research  
-**Tools:** Windows 11, Wazuh, MITRE ATT&CK  
-**Summary:** Explored how weak registry permissions could allow unauthorized modification of Steam client settings.
+- **[Windows Logon Success Alert Triage](LINK-TO-FILE)** – Determined whether repeated successful logons were normal behavior, credential misuse, or lateral movement (Wazuh, Windows Event Logs)
+- **[Vite Arbitrary File Read (CVE-2026-39368)](LINK-TO-FILE)** – Analyzed a WebSocket bypass that exposed sensitive files
+- **[node-tar Path Traversal Cluster](LINK-TO-FILE)** – Investigated related symlink/hardlink CVEs and planned remediation
 
 📁 Full repository: [Security Writeups](https://github.com/Rgraf228/Security-writeups)
-
-## 📫 Contact
-- Email: russell.graf228@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/russell-graf/  
-- GitHub: https://github.com/Rgraf228
-
-
-
