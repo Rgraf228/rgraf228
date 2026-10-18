@@ -30,7 +30,7 @@ A segmented lab for practicing networking, monitoring, and security operations.
 - Endpoint hardening with CIS Benchmarks
 - Python scripting for security and network tooling
 
-📁 *Lab documentation and topology diagrams: ![Network topology](docs/fullnetwork.png)*
+📁 *Lab documentation and topology diagrams: ![Home lab network topology](https://raw.githubusercontent.com/Rgraf228/Security-writeups/main/fullnetwork.png)*
 
 ## 🛠️ Skills
 **Networking**
